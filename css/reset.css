@@ -1,0 +1,68 @@
+@charset "utr-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&family=Noto+Serif+KR:wght@200..900&display=swap');
+
+@font-face {
+    font-family: 'SUIT-Regular';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_suit@1.0/SUIT-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+:root{
+  --main-font : 'SUIT', sans-serif;
+  --sub-font : "Noto Serif KR", serif;;
+  --main-color : #d9d9d9;
+}
+
+/* 드래그 */
+::selection {
+  background: #000;
+  color: #fff;
+}
+
+/* reset */
+html{
+  font-size: 10px;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 1.4rem;
+  line-height: 1.5;
+}
+body{
+  font-family: 'SUIT', sans-serif;
+  color: #202020;
+}
+table{
+  border-collapse: collapse;
+  width: 100%;
+}
+ol, ul{
+  list-style: none;
+}
+a{
+  text-decoration: none; 
+  color: #000;
+}
+address, em{
+  font-style: normal;
+}
+caption , legend{
+  display: none;
+}
+select, input, fieldset, button{
+  border: 0; 
+  outline: none; 
+  vertical-align: top;
+  background-color: transparent;
+}
+button{
+  cursor: pointer;
+}
+img{
+  vertical-align: top; 
+  border: 0;
+}
